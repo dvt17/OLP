@@ -1,8 +1,7 @@
 #include<iostream>
-#define ll long long
 using namespace std;
 
-void check(ll x,ll y ){
+void check(float x, float y ){
     if(x > 0 && y > 0) cout << 1 << endl;
     else if(x < 0 && y > 0 ) cout << 2<< endl;
     else if(x < 0 && y < 0) cout << 3<< endl;
@@ -12,7 +11,7 @@ void check(ll x,ll y ){
 }
 int main()
 {
-    ll X, Y;
+    float X, Y;
     cin >> X >>Y;
     check(X,Y);
 	return 0;
